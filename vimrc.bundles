@@ -39,7 +39,7 @@ endif
 " Group dependencies, vim-snippets depends on ultisnips
 " 代码片段快速插入 (snippets中,是代码片段资源,需要学习)
 " Snippets are separated from the engine. Add this if you want them:
-Plug 'SirVer/ultisnips' | Plug 'honza/vim-snippets'
+" Plug 'SirVer/ultisnips' | Plug 'honza/vim-snippets'
 
 " auto complete
 " 代码自动补全
@@ -140,7 +140,21 @@ Plug 'altercation/vim-colors-solarized'
 " molokai
 " 主题 molokai
 Plug 'tomasr/molokai'
+" 主题gruvbox
+Plug 'morhetz/gruvbox'
+" 主题seoul256
+Plug 'junegunn/seoul256.vim'
 
+" 代码高亮
+Plug 'lfv89/vim-interestingwords'
+
+" 代码缩进行
+" Plug 'yggdroot/indentline'
+
+" 代码补全
+Plug 'honza/vim-snippets'
+Plug 'neoclide/coc.nvim', {'branch': 'release'}
+" Plug 'neoclide/coc.nvim', {'do': 'yarn install --frozen-lockfile'}
 
 " nav
 " nerdtree nerdtreetabs
@@ -149,6 +163,7 @@ Plug 'scrooloose/nerdtree' | Plug 'jistr/vim-nerdtree-tabs'
 Plug 'vim-ctrlspace/vim-ctrlspace'
 " tagbar
 Plug 'majutsushi/tagbar'
+
 
 " text object
 " 支持自定义文本对象
